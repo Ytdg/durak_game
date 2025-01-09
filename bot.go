@@ -15,7 +15,7 @@ type Bot struct {
 	mode Mode
 }
 
-// RespondC Hits with the smallest card if possible. Otherwise , it takes away
+// RespondC Hits with _the smallest card if possible. Otherwise , it takes away
 func (bot *Bot) RespondC(beatC Card, suitTrump string, throw CallbackThrowCard) {
 	if len(bot.pl.cards) == 0 {
 		panic("Bot is deck of cards is empty!")

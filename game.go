@@ -80,7 +80,7 @@ func stackCardsShuffle() []Card {
 	return stack
 }
 
-// distribution of game cards takes place in turn. The distribution of cards is the same for all players, including the bot.
+// distribution of game _cards takes place in turn. The distribution of cards is the same for all players, including the bot.
 func distribution(stack []Card, p ...*Player) []Card {
 	ac := uint8(6 * len(p))
 	fc := func() uint8 {

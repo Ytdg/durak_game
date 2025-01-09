@@ -91,7 +91,7 @@ func (pl *Player) StartBatch(currStackC []CardToCard, endBatch func(curSt []Card
 	}
 }
 
-// SelectCard processing of card number input
+// SelectCard processing of card number input_
 func (pl *Player) SelectCard(throw CallbackThrowCard) {
 	var value string
 
